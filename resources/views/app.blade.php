@@ -7,6 +7,14 @@
 
     <title inertia>{{ config('app.name', 'Molka Moden') }}</title>
 
+    <!-- PWA / Mobile App config -->
+    <meta name="theme-color" content="#ee2b1b">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Molka">
+    <link rel="apple-touch-icon" href="/logo.jpg">
+    <link rel="manifest" href="/manifest.json">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
